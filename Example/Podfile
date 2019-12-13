@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LWSDWebImage_Example' do
+  pod 'LWSDWebImage', :path => '../'
+
+  target 'LWSDWebImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
