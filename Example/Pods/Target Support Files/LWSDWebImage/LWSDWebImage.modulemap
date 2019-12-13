@@ -1,0 +1,6 @@
+framework module LWSDWebImage {
+  umbrella header "LWSDWebImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

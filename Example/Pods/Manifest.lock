@@ -1,0 +1,16 @@
+PODS:
+  - LWSDWebImage (1.0.0)
+
+DEPENDENCIES:
+  - LWSDWebImage (from `../`)
+
+EXTERNAL SOURCES:
+  LWSDWebImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LWSDWebImage: 4590ce0b7aac6abe40828b3ab795decd2128a8d9
+
+PODFILE CHECKSUM: 7ce4763891a1513da911fe102dad5c2cb9a5b676
+
+COCOAPODS: 1.8.3

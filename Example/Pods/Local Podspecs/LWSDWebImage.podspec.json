@@ -1,0 +1,22 @@
+{
+  "name": "LWSDWebImage",
+  "version": "1.0.0",
+  "summary": "A short description of LWSDWebImage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitlab.com/ioslibraries1/lwsdwebimage.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luowei": "luowei@wodedata.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/ioslibraries1/lwsdwebimage.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LWSDWebImage/Classes/**/*",
+  "public_header_files": "LWSDWebImage/Classes/**/*.h"
+}
