@@ -80,6 +80,14 @@ LWSDWebImage is available through [CocoaPods](https://cocoapods.org). To install
 pod 'LWSDWebImage'
 ```
 
+For Swift version, use:
+
+```ruby
+pod 'LWSDWebImage_swift'
+```
+
+See [Swift Version Documentation](README_SWIFT_VERSION.md) for more details.
+
 Then run:
 
 ```bash

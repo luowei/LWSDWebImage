@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint LWSDWebImage.podspec' to ensure this is a
+# Be sure to run `pod lib lint LWSDWebImage_swift.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LWSDWebImage'
+  s.name             = 'LWSDWebImage_swift'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of LWSDWebImage.'
+  s.summary          = 'LWSDWebImage Swift版本，图片加载组件。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LWSDWebImage Swift版本，图片加载组件。
                        DESC
 
   s.homepage         = 'https://gitlab.com/ioslibraries1/lwsdwebimage.git'
@@ -28,16 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://gitlab.com/ioslibraries1/lwsdwebimage.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'LWSDWebImage/Classes/**/*.{h,m}'
-  s.exclude_files = 'LWSDWebImage/SwiftClasses/**/*.swift'
+  s.source_files = 'LWSDWebImage_swift/SwiftClasses/**/*'
 
   # s.resource_bundles = {
-  #   'LWSDWebImage' => ['LWSDWebImage/Assets/*.png']
+  #   'LWSDWebImage_swift' => ['LWSDWebImage_swift/Assets/*.png']
   # }
 
-  s.public_header_files = 'LWSDWebImage/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
