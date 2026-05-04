@@ -1,5 +1,12 @@
 # LWSDWebImage
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWSDWebImage/
+- Report: https://luowei.github.io/LWSDWebImage/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWSDWebImage/graph.json
+
 [![CI Status](https://img.shields.io/travis/luowei/LWSDWebImage.svg?style=flat)](https://travis-ci.org/luowei/LWSDWebImage)
 [![Version](https://img.shields.io/cocoapods/v/LWSDWebImage.svg?style=flat)](https://cocoapods.org/pods/LWSDWebImage)
 [![License](https://img.shields.io/cocoapods/l/LWSDWebImage.svg?style=flat)](https://cocoapods.org/pods/LWSDWebImage)
